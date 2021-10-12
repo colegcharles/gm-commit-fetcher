@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED3CEEC227162A0C004932C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CEEC127162A0C004932C6 /* AppDelegate.swift */; };
+		ED3CEEC427162A0C004932C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CEEC327162A0C004932C6 /* SceneDelegate.swift */; };
+		ED3CEEC627162A0C004932C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CEEC527162A0C004932C6 /* ViewController.swift */; };
+		ED3CEEC927162A0C004932C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3CEEC727162A0C004932C6 /* Main.storyboard */; };
+		ED3CEECB27162A0D004932C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED3CEECA27162A0D004932C6 /* Assets.xcassets */; };
+		ED3CEECE27162A0D004932C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED3CEECC27162A0D004932C6 /* LaunchScreen.storyboard */; };
+		ED3CEED927162A0D004932C6 /* gm_commit_fetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CEED827162A0D004932C6 /* gm_commit_fetcherTests.swift */; };
+		ED3CEEE327162A0D004932C6 /* gm_commit_fetcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CEEE227162A0D004932C6 /* gm_commit_fetcherUITests.swift */; };
+		ED3CEEE527162A0D004932C6 /* gm_commit_fetcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CEEE427162A0D004932C6 /* gm_commit_fetcherUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED3CEED527162A0D004932C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3CEEB627162A0C004932C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3CEEBD27162A0C004932C6;
+			remoteInfo = "gm-commit-fetcher";
+		};
+		ED3CEEDF27162A0D004932C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED3CEEB627162A0C004932C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED3CEEBD27162A0C004932C6;
+			remoteInfo = "gm-commit-fetcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED3CEEBE27162A0C004932C6 /* gm-commit-fetcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gm-commit-fetcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3CEEC127162A0C004932C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED3CEEC327162A0C004932C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ED3CEEC527162A0C004932C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED3CEEC827162A0C004932C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED3CEECA27162A0D004932C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED3CEECD27162A0D004932C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED3CEECF27162A0D004932C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED3CEED427162A0D004932C6 /* gm-commit-fetcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gm-commit-fetcherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3CEED827162A0D004932C6 /* gm_commit_fetcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gm_commit_fetcherTests.swift; sourceTree = "<group>"; };
+		ED3CEEDE27162A0D004932C6 /* gm-commit-fetcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gm-commit-fetcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED3CEEE227162A0D004932C6 /* gm_commit_fetcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gm_commit_fetcherUITests.swift; sourceTree = "<group>"; };
+		ED3CEEE427162A0D004932C6 /* gm_commit_fetcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gm_commit_fetcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED3CEEBB27162A0C004932C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3CEED127162A0D004932C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3CEEDB27162A0D004932C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED3CEEB527162A0C004932C6 = {
+			isa = PBXGroup;
+			children = (
+				ED3CEEC027162A0C004932C6 /* gm-commit-fetcher */,
+				ED3CEED727162A0D004932C6 /* gm-commit-fetcherTests */,
+				ED3CEEE127162A0D004932C6 /* gm-commit-fetcherUITests */,
+				ED3CEEBF27162A0C004932C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED3CEEBF27162A0C004932C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED3CEEBE27162A0C004932C6 /* gm-commit-fetcher.app */,
+				ED3CEED427162A0D004932C6 /* gm-commit-fetcherTests.xctest */,
+				ED3CEEDE27162A0D004932C6 /* gm-commit-fetcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED3CEEC027162A0C004932C6 /* gm-commit-fetcher */ = {
+			isa = PBXGroup;
+			children = (
+				ED3CEEC127162A0C004932C6 /* AppDelegate.swift */,
+				ED3CEEC327162A0C004932C6 /* SceneDelegate.swift */,
+				ED3CEEC527162A0C004932C6 /* ViewController.swift */,
+				ED3CEEC727162A0C004932C6 /* Main.storyboard */,
+				ED3CEECA27162A0D004932C6 /* Assets.xcassets */,
+				ED3CEECC27162A0D004932C6 /* LaunchScreen.storyboard */,
+				ED3CEECF27162A0D004932C6 /* Info.plist */,
+			);
+			path = "gm-commit-fetcher";
+			sourceTree = "<group>";
+		};
+		ED3CEED727162A0D004932C6 /* gm-commit-fetcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED3CEED827162A0D004932C6 /* gm_commit_fetcherTests.swift */,
+			);
+			path = "gm-commit-fetcherTests";
+			sourceTree = "<group>";
+		};
+		ED3CEEE127162A0D004932C6 /* gm-commit-fetcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED3CEEE227162A0D004932C6 /* gm_commit_fetcherUITests.swift */,
+				ED3CEEE427162A0D004932C6 /* gm_commit_fetcherUITestsLaunchTests.swift */,
+			);
+			path = "gm-commit-fetcherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED3CEEBD27162A0C004932C6 /* gm-commit-fetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3CEEE827162A0D004932C6 /* Build configuration list for PBXNativeTarget "gm-commit-fetcher" */;
+			buildPhases = (
+				ED3CEEBA27162A0C004932C6 /* Sources */,
+				ED3CEEBB27162A0C004932C6 /* Frameworks */,
+				ED3CEEBC27162A0C004932C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gm-commit-fetcher";
+			productName = "gm-commit-fetcher";
+			productReference = ED3CEEBE27162A0C004932C6 /* gm-commit-fetcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED3CEED327162A0D004932C6 /* gm-commit-fetcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3CEEEB27162A0D004932C6 /* Build configuration list for PBXNativeTarget "gm-commit-fetcherTests" */;
+			buildPhases = (
+				ED3CEED027162A0D004932C6 /* Sources */,
+				ED3CEED127162A0D004932C6 /* Frameworks */,
+				ED3CEED227162A0D004932C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED3CEED627162A0D004932C6 /* PBXTargetDependency */,
+			);
+			name = "gm-commit-fetcherTests";
+			productName = "gm-commit-fetcherTests";
+			productReference = ED3CEED427162A0D004932C6 /* gm-commit-fetcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED3CEEDD27162A0D004932C6 /* gm-commit-fetcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED3CEEEE27162A0D004932C6 /* Build configuration list for PBXNativeTarget "gm-commit-fetcherUITests" */;
+			buildPhases = (
+				ED3CEEDA27162A0D004932C6 /* Sources */,
+				ED3CEEDB27162A0D004932C6 /* Frameworks */,
+				ED3CEEDC27162A0D004932C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED3CEEE027162A0D004932C6 /* PBXTargetDependency */,
+			);
+			name = "gm-commit-fetcherUITests";
+			productName = "gm-commit-fetcherUITests";
+			productReference = ED3CEEDE27162A0D004932C6 /* gm-commit-fetcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED3CEEB627162A0C004932C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					ED3CEEBD27162A0C004932C6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					ED3CEED327162A0D004932C6 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = ED3CEEBD27162A0C004932C6;
+					};
+					ED3CEEDD27162A0D004932C6 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = ED3CEEBD27162A0C004932C6;
+					};
+				};
+			};
+			buildConfigurationList = ED3CEEB927162A0C004932C6 /* Build configuration list for PBXProject "gm-commit-fetcher" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED3CEEB527162A0C004932C6;
+			productRefGroup = ED3CEEBF27162A0C004932C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED3CEEBD27162A0C004932C6 /* gm-commit-fetcher */,
+				ED3CEED327162A0D004932C6 /* gm-commit-fetcherTests */,
+				ED3CEEDD27162A0D004932C6 /* gm-commit-fetcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED3CEEBC27162A0C004932C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3CEECE27162A0D004932C6 /* LaunchScreen.storyboard in Resources */,
+				ED3CEECB27162A0D004932C6 /* Assets.xcassets in Resources */,
+				ED3CEEC927162A0C004932C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3CEED227162A0D004932C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3CEEDC27162A0D004932C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED3CEEBA27162A0C004932C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3CEEC627162A0C004932C6 /* ViewController.swift in Sources */,
+				ED3CEEC227162A0C004932C6 /* AppDelegate.swift in Sources */,
+				ED3CEEC427162A0C004932C6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3CEED027162A0D004932C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3CEED927162A0D004932C6 /* gm_commit_fetcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED3CEEDA27162A0D004932C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3CEEE327162A0D004932C6 /* gm_commit_fetcherUITests.swift in Sources */,
+				ED3CEEE527162A0D004932C6 /* gm_commit_fetcherUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED3CEED627162A0D004932C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3CEEBD27162A0C004932C6 /* gm-commit-fetcher */;
+			targetProxy = ED3CEED527162A0D004932C6 /* PBXContainerItemProxy */;
+		};
+		ED3CEEE027162A0D004932C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED3CEEBD27162A0C004932C6 /* gm-commit-fetcher */;
+			targetProxy = ED3CEEDF27162A0D004932C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED3CEEC727162A0C004932C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3CEEC827162A0C004932C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED3CEECC27162A0D004932C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED3CEECD27162A0D004932C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED3CEEE627162A0D004932C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED3CEEE727162A0D004932C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED3CEEE927162A0D004932C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNCFV92VD3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "gm-commit-fetcher/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cole-Charles.gm-commit-fetcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED3CEEEA27162A0D004932C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNCFV92VD3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "gm-commit-fetcher/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cole-Charles.gm-commit-fetcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED3CEEEC27162A0D004932C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNCFV92VD3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cole-Charles.gm-commit-fetcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gm-commit-fetcher.app/gm-commit-fetcher";
+			};
+			name = Debug;
+		};
+		ED3CEEED27162A0D004932C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNCFV92VD3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cole-Charles.gm-commit-fetcherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gm-commit-fetcher.app/gm-commit-fetcher";
+			};
+			name = Release;
+		};
+		ED3CEEEF27162A0D004932C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNCFV92VD3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cole-Charles.gm-commit-fetcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gm-commit-fetcher";
+			};
+			name = Debug;
+		};
+		ED3CEEF027162A0D004932C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNCFV92VD3;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Cole-Charles.gm-commit-fetcherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gm-commit-fetcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED3CEEB927162A0C004932C6 /* Build configuration list for PBXProject "gm-commit-fetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3CEEE627162A0D004932C6 /* Debug */,
+				ED3CEEE727162A0D004932C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3CEEE827162A0D004932C6 /* Build configuration list for PBXNativeTarget "gm-commit-fetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3CEEE927162A0D004932C6 /* Debug */,
+				ED3CEEEA27162A0D004932C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3CEEEB27162A0D004932C6 /* Build configuration list for PBXNativeTarget "gm-commit-fetcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3CEEEC27162A0D004932C6 /* Debug */,
+				ED3CEEED27162A0D004932C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED3CEEEE27162A0D004932C6 /* Build configuration list for PBXNativeTarget "gm-commit-fetcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED3CEEEF27162A0D004932C6 /* Debug */,
+				ED3CEEF027162A0D004932C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED3CEEB627162A0C004932C6 /* Project object */;
+}
