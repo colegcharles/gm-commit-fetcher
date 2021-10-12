@@ -10,8 +10,9 @@ import Foundation
 class CommitManager: NSObject {
     
     static let shared = CommitManager()
+    var commits: [Commits] = []
     
-    func getCommits() {
+    func getCommits(completion: @escaping ([Commits]) -> ()) {
         
         // Create URL
         let url = URL(string: "https://api.github.com/repos/couchbase/couchbase-lite-android/commits?per_page=25")
@@ -38,9 +39,37 @@ class CommitManager: NSObject {
             }
             
             // Convert HTTP Response Data to a simple String
-            if let data = data, let dataString = String(data: data, encoding: .utf8) {
-                print("Response data string:\n \(dataString)")
-                print("The data count is: \(dataString.count)")
+            if let data = data {
+                //print("Response data string:\n \(dataString)")
+                
+                do {
+                    if let jsonArray = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [Dictionary<String,Any>] {
+                        for x in jsonArray
+                        {
+                            // initialize commit
+                            var node = Commits()
+                            // find the name value
+                            let commit = x["commit"] as? [String: AnyObject]
+                            let author = commit?["author"] as? [String: AnyObject]
+                            let name = author?["name"] as! String
+                            node.author = name
+               
+                            // find the hash
+                            let hash = x["sha"] as! String
+                            node.hash = hash
+                            // find the message
+                            let message = commit?["message"] as! String
+                            node.message = message
+                            self.commits.append(node)
+
+                        }
+                        completion(self.commits)
+                    }
+                    
+                } catch {
+                    print(error)
+                }
+                
             }
             
         }

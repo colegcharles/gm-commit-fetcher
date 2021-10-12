@@ -17,6 +17,8 @@
 		ED3CEEE327162A0D004932C6 /* gm_commit_fetcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CEEE227162A0D004932C6 /* gm_commit_fetcherUITests.swift */; };
 		ED3CEEE527162A0D004932C6 /* gm_commit_fetcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CEEE427162A0D004932C6 /* gm_commit_fetcherUITestsLaunchTests.swift */; };
 		ED5E968127162D1D00A6C6A9 /* CommitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E968027162D1D00A6C6A9 /* CommitManager.swift */; };
+		ED5E96842716312E00A6C6A9 /* Commits.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E96832716312E00A6C6A9 /* Commits.swift */; };
+		ED5E96882716537D00A6C6A9 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E96872716537D00A6C6A9 /* TableController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		ED3CEEE227162A0D004932C6 /* gm_commit_fetcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gm_commit_fetcherUITests.swift; sourceTree = "<group>"; };
 		ED3CEEE427162A0D004932C6 /* gm_commit_fetcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gm_commit_fetcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ED5E968027162D1D00A6C6A9 /* CommitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitManager.swift; sourceTree = "<group>"; };
+		ED5E96832716312E00A6C6A9 /* Commits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commits.swift; sourceTree = "<group>"; };
+		ED5E96872716537D00A6C6A9 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +105,13 @@
 		ED3CEEC027162A0C004932C6 /* gm-commit-fetcher */ = {
 			isa = PBXGroup;
 			children = (
+				ED5E96862716536200A6C6A9 /* Controllers */,
+				ED5E96852716534000A6C6A9 /* Views */,
+				ED5E96822716311D00A6C6A9 /* Models */,
 				ED5E967D27162C7400A6C6A9 /* Utils */,
 				ED3CEEC127162A0C004932C6 /* AppDelegate.swift */,
 				ED3CEEC327162A0C004932C6 /* SceneDelegate.swift */,
-				ED3CEEC527162A0C004932C6 /* ViewController.swift */,
-				ED3CEEC727162A0C004932C6 /* Main.storyboard */,
 				ED3CEECA27162A0D004932C6 /* Assets.xcassets */,
-				ED3CEECC27162A0D004932C6 /* LaunchScreen.storyboard */,
 				ED3CEECF27162A0D004932C6 /* Info.plist */,
 			);
 			path = "gm-commit-fetcher";
@@ -136,6 +140,32 @@
 				ED5E968027162D1D00A6C6A9 /* CommitManager.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		ED5E96822716311D00A6C6A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E96832716312E00A6C6A9 /* Commits.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED5E96852716534000A6C6A9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED3CEECC27162A0D004932C6 /* LaunchScreen.storyboard */,
+				ED3CEEC727162A0C004932C6 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED5E96862716536200A6C6A9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED3CEEC527162A0C004932C6 /* ViewController.swift */,
+				ED5E96872716537D00A6C6A9 /* TableController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,10 +299,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5E96882716537D00A6C6A9 /* TableController.swift in Sources */,
 				ED3CEEC627162A0C004932C6 /* ViewController.swift in Sources */,
 				ED3CEEC227162A0C004932C6 /* AppDelegate.swift in Sources */,
 				ED5E968127162D1D00A6C6A9 /* CommitManager.swift in Sources */,
 				ED3CEEC427162A0C004932C6 /* SceneDelegate.swift in Sources */,
+				ED5E96842716312E00A6C6A9 /* Commits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,15 +7,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UINavigationController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
-        CommitManager.shared.getCommits()
+        // Do any additional setup after loading the view.
+        print("doug")
     }
-
-
 }
 
