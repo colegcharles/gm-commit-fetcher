@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+//
+
+class FetchCommits {
+    
+    static let shared = fetchCommits()
+}

@@ -16,6 +16,7 @@
 		ED3CEED927162A0D004932C6 /* gm_commit_fetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CEED827162A0D004932C6 /* gm_commit_fetcherTests.swift */; };
 		ED3CEEE327162A0D004932C6 /* gm_commit_fetcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CEEE227162A0D004932C6 /* gm_commit_fetcherUITests.swift */; };
 		ED3CEEE527162A0D004932C6 /* gm_commit_fetcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3CEEE427162A0D004932C6 /* gm_commit_fetcherUITestsLaunchTests.swift */; };
+		ED5E968127162D1D00A6C6A9 /* CommitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5E968027162D1D00A6C6A9 /* CommitManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		ED3CEEDE27162A0D004932C6 /* gm-commit-fetcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gm-commit-fetcherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3CEEE227162A0D004932C6 /* gm_commit_fetcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gm_commit_fetcherUITests.swift; sourceTree = "<group>"; };
 		ED3CEEE427162A0D004932C6 /* gm_commit_fetcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gm_commit_fetcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED5E968027162D1D00A6C6A9 /* CommitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommitManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		ED3CEEC027162A0C004932C6 /* gm-commit-fetcher */ = {
 			isa = PBXGroup;
 			children = (
+				ED5E967D27162C7400A6C6A9 /* Utils */,
 				ED3CEEC127162A0C004932C6 /* AppDelegate.swift */,
 				ED3CEEC327162A0C004932C6 /* SceneDelegate.swift */,
 				ED3CEEC527162A0C004932C6 /* ViewController.swift */,
@@ -125,6 +128,14 @@
 				ED3CEEE427162A0D004932C6 /* gm_commit_fetcherUITestsLaunchTests.swift */,
 			);
 			path = "gm-commit-fetcherUITests";
+			sourceTree = "<group>";
+		};
+		ED5E967D27162C7400A6C6A9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E968027162D1D00A6C6A9 /* CommitManager.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			files = (
 				ED3CEEC627162A0C004932C6 /* ViewController.swift in Sources */,
 				ED3CEEC227162A0C004932C6 /* AppDelegate.swift in Sources */,
+				ED5E968127162D1D00A6C6A9 /* CommitManager.swift in Sources */,
 				ED3CEEC427162A0C004932C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
