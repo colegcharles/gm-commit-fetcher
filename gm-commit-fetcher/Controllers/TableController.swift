@@ -24,10 +24,30 @@ class TableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
       
+        fetchData()
+        
+        tableView.refreshControl = UIRefreshControl()
+        tableView.refreshControl?.addTarget(self, action: #selector(refetchData), for: .valueChanged)
+    }
+    
+    @objc private func refetchData() {
         CommitManager.shared.getCommits(completion: {
             array in
-            self.dataSource = array
-            self.tableView.reloadData()
+            self.dataSource = CommitManager.shared.commits
+            DispatchQueue.main.asyncAfter(deadline: .now()+3) {
+                self.tableView.refreshControl?.endRefreshing()
+                self.tableView.reloadData()
+            }
+        })
+    }
+    
+    func fetchData() {
+        CommitManager.shared.getCommits(completion: {
+            _ in
+            DispatchQueue.main.asyncAfter(deadline: .now()) {
+                self.dataSource = CommitManager.shared.commits
+                self.tableView.reloadData()
+            }
         })
     }
     
