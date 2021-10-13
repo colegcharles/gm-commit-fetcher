@@ -28,6 +28,8 @@ class TableViewController: UITableViewController {
     }
     
     @objc private func refetchData() {
+        self.dataSource = []
+        self.tableView.reloadData()
         CommitManager.shared.getCommits(completion: {
             array in
             self.dataSource = CommitManager.shared.commits
