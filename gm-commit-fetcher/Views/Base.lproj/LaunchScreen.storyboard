@@ -23,8 +23,8 @@
                                 <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="1024" translatesAutoresizingMaskIntoConstraints="NO" id="tTY-se-IiS">
-                                <rect key="frame" x="-305" y="0.0" width="1024" height="896"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="1024" translatesAutoresizingMaskIntoConstraints="NO" id="tTY-se-IiS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="802"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>

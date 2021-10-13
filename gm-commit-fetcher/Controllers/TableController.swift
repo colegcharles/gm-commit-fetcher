@@ -9,13 +9,10 @@ import UIKit
 
 // custom table cell class
 class commitTableViewCell: UITableViewCell {
-
     @IBOutlet weak var message: UILabel!
     @IBOutlet weak var id: UILabel!
     @IBOutlet weak var author: UILabel!
 }
-
-
 
 class TableViewController: UITableViewController {
     
@@ -23,7 +20,7 @@ class TableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+        
         fetchData()
         
         tableView.refreshControl = UIRefreshControl()
@@ -53,7 +50,6 @@ class TableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.dataSource.count
-        
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -68,7 +64,4 @@ class TableViewController: UITableViewController {
         }
         return cell
     }
-    
-    
-    
 }
