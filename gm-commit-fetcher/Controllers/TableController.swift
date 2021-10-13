@@ -9,7 +9,8 @@ import UIKit
 
 // custom table cell class
 class commitTableViewCell: UITableViewCell {
-    @IBOutlet weak var message: UITextField!
+
+    @IBOutlet weak var message: UILabel!
     @IBOutlet weak var id: UILabel!
     @IBOutlet weak var author: UILabel!
 }
