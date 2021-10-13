@@ -12,6 +12,7 @@ class commitTableViewCell: UITableViewCell {
     @IBOutlet weak var message: UILabel!
     @IBOutlet weak var id: UILabel!
     @IBOutlet weak var author: UILabel!
+    
 }
 
 class TableViewController: UITableViewController {
@@ -25,6 +26,9 @@ class TableViewController: UITableViewController {
         
         tableView.refreshControl = UIRefreshControl()
         tableView.refreshControl?.addTarget(self, action: #selector(refetchData), for: .valueChanged)
+        
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = 600
     }
     
     @objc private func refetchData() {
@@ -58,7 +62,6 @@ class TableViewController: UITableViewController {
         let cell = UITableViewCell()
         if self.dataSource.count > 0 {
             let cells = tableView.dequeueReusableCell(withIdentifier: "commitCell", for: indexPath) as! commitTableViewCell
-            
             cells.author?.text = self.dataSource[indexPath.row].author
             cells.message?.text = self.dataSource[indexPath.row].message
             cells.id?.text = self.dataSource[indexPath.row].hash
