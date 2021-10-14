@@ -14,6 +14,8 @@ class CommitManager: NSObject {
     
     func getCommits(completion: @escaping ([Commits]) -> ()) {
         
+        self.commits = []
+        
         // Create URL
         let url = URL(string: "https://api.github.com/repos/couchbase/couchbase-lite-android/commits?per_page=25")
         
