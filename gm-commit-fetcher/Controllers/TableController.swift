@@ -65,6 +65,7 @@ class TableViewController: UITableViewController {
             cells.author?.text = self.dataSource[indexPath.row].author
             cells.message?.text = self.dataSource[indexPath.row].message
             cells.id?.text = self.dataSource[indexPath.row].hash
+ 
             return cells
         }
         return cell
